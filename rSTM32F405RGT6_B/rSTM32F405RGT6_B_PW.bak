@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "STUno+"
 Date ""
-Rev ""
+Rev "0.1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "STM32F405RGT6 development board."
+Comment2 ".rpv"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -1,4 +1,4 @@
-5474212348689801
+5475855928087563
 .rpvM
 Banana-4mmx4
 
@@ -174,6 +174,13 @@ Switch-2P4T
 0
 10
 10
+.rpvM
+Switch_SMD_5.2x6.4_reset
+
+
+0
+4
+2
 .rpvM
 TSSOP-8_6.4x2.93_0.65mm
 
@@ -29196,14 +29203,14 @@ SBC18-11SURKCGKWA
 0
 0
 0
-divers
+Divers
 Blank
 
 
 0
 0
 0
-Divers
+divers
 Blank
 
 
@@ -37813,14 +37820,14 @@ DirectFET_ST
 0
 0
 0
-labels
+Labels
 Blank
 
 
 0
 0
 0
-Labels
+labels
 Blank
 
 

@@ -1,6 +1,6 @@
 # STM32F405RGT6 STUno+
 
-An ST development board based on the STM32F405RGT6/STM32F405RG (Clock: 168MHz, flash: 1024Kb, Ram:194Kb) MCU (LQFP-64) compatible with STM32Duino (Arduino).
+An ST development board based on the STM32F405RGT6/STM32F405RG (Clock: 168MHz, Flash: 1024Kb, Ram:194Kb) MCU (LQFP-64) compatible with STM32Duino (Arduino).
 
 <img align="top" src="rSTM32F405RGT6.main.jpg" />
 
@@ -22,7 +22,7 @@ An ST development board based on the STM32F405RGT6/STM32F405RG (Clock: 168MHz, f
 
 <img align="top" src="rSTM32F405RGT6.front.jpg" />
 
-_*I submerge the boards on a painters solvent bath to clean the flux residue which I haven't any problem until the DC jack came, as you see, didn't take the solvent bath kindly :P_
+_*I submerge the boards on a painters solvent bath to clean the flux residue which I haven't any problem until the DC jack came, as you see, didn't took the solvent bath kindly :P_
 
 
 **Back**
@@ -33,4 +33,4 @@ _*The footprint for the second crystal (Y2) was wrong on this board but it's alr
 
 ## Running some tests
 
-_Working on_
+_Working on..._

@@ -16,12 +16,21 @@ An ST development board based on the STM32F405RGT6/STM32F405RG (Clock: 168MHz, f
 - **rSTM32F405RGT6.schematic.pdf** the schematic.
 
 
+## The real board
+
+**Front**
+
 <img align="top" src="rSTM32F405RGT6.front.jpg" />
 
-* I submerge the boards on a painters solvent bath to clean the flux residue which I haven't any problem until the DC jack came, as you see, didn't take the solvent bath kindly :P
+_*I submerge the boards on a painters solvent bath to clean the flux residue which I haven't any problem until the DC jack came, as you see, didn't take the solvent bath kindly :P_
 
 
+**Back**
 
 <img align="top" src="rSTM32F405RGT6.back.jpg" />
 
-* The footprint for the second crystal (Y2) was wrong on this board but it's already corrected on the KiCAD files.
+_*The footprint for the second crystal (Y2) was wrong on this board but it's already corrected on the KiCAD files._
+
+## Running some tests
+
+_Working on_

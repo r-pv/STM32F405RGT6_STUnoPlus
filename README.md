@@ -16,6 +16,11 @@ An ST development board based on the STM32F405RGT6/STM32F405RG (Clock: 168MHz, F
 - **rSTM32F405RGT6.schematic.pdf** the schematic.
 
 
+## Install
+
+_pending..._
+
+
 ## The real board
 
 **Front**
@@ -31,6 +36,16 @@ _*I submerge the boards on a painters solvent bath to clean the flux residue whi
 
 _*The footprint for the second crystal (Y2) was wrong on this board but it's already corrected on the KiCAD files._
 
+
 ## Running some tests
 
-_Working on..._
+
+<img align="top" src="rSTM32F405RGT6.sample0.jpg" />
+
+
+The **STUno+** running the Adafruit ILI9341 library over hardware SPI.
+
+
+_Video in progress..._
+
+

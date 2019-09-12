@@ -137,7 +137,7 @@ extern "C"{
 #define NUM_ANALOG_INPUTS       16
 // Define digital pin number of the first analog input  (i.e. which digital pin is A0)
 // First analog pin value (A0) must be greater than or equal to NUM_ANALOG_INPUTS
-#define NUM_ANALOG_FIRST        23
+#define NUM_ANALOG_FIRST        48
 
 // Below ADC, DAC and PWM definitions already done in the core
 // Could be redefined here if needed

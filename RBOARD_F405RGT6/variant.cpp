@@ -38,6 +38,11 @@ extern "C" {
 // This array allows to wrap Arduino pin number(Dx or x)
 // to STM32 PinName (PX_n)
 const PinName digitalPin[] = {
+//.with.the.USB.on.top.and.bottom-to-left-to-right.naming;
+//.this.weird.naming.due.to.comply.with.the.analog.pin.number.being>=NUM_ANALOG_INPUTS.in.this.case:16
+	// Bottom.side
+	PA_13,
+	PA_14,
 	// Left.Side
 	PA_15,
 	PC_10,
@@ -51,7 +56,7 @@ const PinName digitalPin[] = {
 	PB_7,
 	PB_8,
 	PB_9,
-	/*				 VBAT */
+	//VBAT
 	PC_13,
 	PC_14,
 	PC_15,
@@ -61,11 +66,8 @@ const PinName digitalPin[] = {
 	PC_3,
 	PA_0,
 	PA_1,
-	/*				 GND */
+	//GND
 	PA_2,
-	// Bottom.side
-	PA_13,
-	PA_14,
 	// Right.side
 	PA_3,
 	PA_4,
@@ -93,22 +95,6 @@ const PinName digitalPin[] = {
 	PA_12,
 	// Duplicated pins in order to be aligned with PinMap_ADC
 	// A0 have to be greater than NUM_ANALOG_INPUTS
-	PA_0,
-	PA_1,
-	PA_2,
-	PA_3,
-	PA_4,
-	PA_5,
-	PA_6,
-	PA_7,
-	PB_0,
-	PB_1,
-	PC_0,
-	PC_1,
-	PC_2,
-	PC_3,
-	PC_4,
-	PC_5,
 };
 
 #ifdef __cplusplus

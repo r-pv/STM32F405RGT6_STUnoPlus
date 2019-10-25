@@ -40,60 +40,61 @@ extern "C"{
 /*----------------------------------------------------------------------------
  *        Pins
  *----------------------------------------------------------------------------*/
-// USB connector on the top, MCU side
-// Left.Side
-#define PA15  0
-#define PC10  1
-#define PC11  2
-#define PC12  3
-#define PD2   4
-#define PB3   5
-#define PB4   6
-#define PB5   7
-#define PB6   8
-#define PB7   9
-#define PB8   10
-#define PB9   11
-/*				 VBAT */
-#define PC13  12
-#define PC14  13
-#define PC15  14
-#define PC0   15
-#define PC1   16
-#define PC2   17
-#define PC3   18
-#define PA0   19
-#define PA1   20
-/*				 GND */
-#define PA2   21
+//.with.the.USB.on.top.and.bottom-to-left-to-right.naming;
+//.this.weird.naming.due.to.comply.with.the.analog.pin.number.being>=NUM_ANALOG_INPUTS.in.this.case:16
 // Bottom.side
-#define PA13  22 //D10   - SWDIO
-#define PA14  23 //D11   - SWCLK
+#define PA13   0
+#define PA14   1
+// Left.Side
+#define PA15   2
+#define PC10   3
+#define PC11   4
+#define PC12   5
+#define PD2    6
+#define PB3    7
+#define PB4    8
+#define PB5    9
+#define PB6    10
+#define PB7    11
+#define PB8    12
+#define PB9    13
+//VBAT
+#define PC13   14
+#define PC14   15
+#define PC15   16
+#define PC0    17
+#define PC1    18
+#define PC2    19
+#define PC3    20
+#define PA0    21
+#define PA1    22
+//GND
+#define PA2    23
 // Right.side
-#define PA3   24
-#define PA4   25
-#define PA5   26
-#define PA6   27
-#define PA7   28
-#define PC4   29
-#define PC5   30
-#define PB0   31
-#define PB1   32
-#define PB10  33
-#define PB11  34
-#define PB12  35
-#define PB13  36
-#define PB14  37
-#define PB15  38
-#define PC6   39
-#define PC7   40
-#define PC8   41
-#define PC9   42
-#define PA8   43
-#define PA9   44
-#define PA10  45
-#define PA11  46
-#define PA12  47
+#define PA3    24
+#define PA4    25
+#define PA5    26
+#define PA6    27
+#define PA7    28
+#define PC4    29
+#define PC5    30
+#define PB0    31
+#define PB1    32
+#define PB10   33
+#define PB11   34
+#define PB12   35
+#define PB13   36
+#define PB14   37
+#define PB15   38
+#define PC6    39
+#define PC7    40
+#define PC8    41
+#define PC9    42
+#define PA8    43
+#define PA9    44
+#define PA10   45
+#define PA11   46
+#define PA12   47
 
 // Define pin names to match digital pin number --> Dx
 // It could be used with preprocessor tests (e.g. #if PXn == 3)
@@ -121,7 +122,7 @@ extern "C"{
 // This must be a literal
 // It is used with preprocessor tests (e.g. #if NUM_DIGITAL_PINS > 3)
 // so an enum will not work.
-#define NUM_DIGITAL_PINS        47
+#define NUM_DIGITAL_PINS        57
 
 // Allow to define Arduino style alias for analog input pin number --> Ax
 // All pins are digital, analog inputs are a subset of digital pins
@@ -137,7 +138,7 @@ extern "C"{
 #define NUM_ANALOG_INPUTS       16
 // Define digital pin number of the first analog input  (i.e. which digital pin is A0)
 // First analog pin value (A0) must be greater than or equal to NUM_ANALOG_INPUTS
-#define NUM_ANALOG_FIRST        48
+#define NUM_ANALOG_FIRST        17
 
 // Below ADC, DAC and PWM definitions already done in the core
 // Could be redefined here if needed
